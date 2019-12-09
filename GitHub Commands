@@ -1,0 +1,41 @@
+
+
+####################################################################################################################################
+<Go to your Local folder where you want to clone our ML Guthub repository>
+git clone https://github.com/Raj1036/ML_Distracted_Driver_Detection.git
+<Downloads ML_Distracted_Driver_Detection folder into your local desktop>
+
+####################################################################################################################################
+<To upload local repository from your desktop to github>
+<Copy/move your desired folder into your local "ML_Distracted_Driver_Detection" folder>
+<run below commands each at a time>
+git config --global user.name "<Your github Username>"
+git init
+git add "<Name of your local folder/files to upload>"
+git commit -m "<Your upload Comments>"
+git remote add origin git@github.com:Raj1036/ML_Distracted_Driver_Detection.git
+git remote -v
+git push origin master
+<Give your Github username and password>
+
+####################################################################################################################################
+<To upload new/modified files into existing folders in Github repos>
+<Go to the folder where files are available>
+git status
+<Rub below command with each file name>
+git add <EachFileName>
+git commit -m "<Your upload Comments>"
+<Now go to the base repository you cloned from github>
+cd ..
+git push origin master
+<Give your Github username and password>
+
+
+####################################################################################################################################
+<To refresh code from Github before making any changes>
+<<Go to the base repository you cloned earlier from github>>
+git pull
+
+
+
+
