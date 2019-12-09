@@ -42,6 +42,13 @@ We pre-processed these  images by resizing them to a lower size and extract each
 
 ### ML Algorithms
 
+Below listed are the Machine Learning algorithms we experimented to predict the classes
+
+1.  Decision Trees
+2.  Support Vector Machines (SVM)
+3.  Random Forests
+4.  2 Layer Neural Networks
+5.  Convolutional Neural Networks (CNN)
 
 ## Applications
 
