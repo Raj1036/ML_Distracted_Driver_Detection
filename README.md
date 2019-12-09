@@ -1,4 +1,4 @@
-# 'Distracted Driver Detection using Machine Learning Techniques'
+# Distracted Driver Detection using Machine Learning Techniques
 
 ## Overview
 
@@ -7,8 +7,8 @@ Most people tend to follow safety guidelines while driving, yet there is a conti
 
 ### Problem Description
 The goal of this project is to detect if the car driver is driving safe or performing any activity that might result in a accident or any harm to others. The dataset contains various driver images, each taken in a car with a driver performing some activity in the car. We are determined to classify the likelihood of what the driver is doing in each image. We aim to use various Machine Learning techniques to classify driver’s activities and identify a model that yields the highest accuracy. The model is trained on image data that are the images of driver's actions in the car. This is a multi-class classification problem, with a total of 10 classes including a class of ‘safe driving’. The image below gives the 10 classes:
-
-[`Source`]
+# ![Classes](Classes.png)
+[`Image Source`]
 
 Below are the 10 classes to classify:
 
@@ -35,7 +35,7 @@ c9: talking to passenger
 ### Dataset
 Our [`Dataset`] is from a 2016 Kaggle competition with a huge collection of 22,500 640x480RGB images.
 
-## mplementation
+## Implementation
 
 ### Pre-processing
 We pre-processed these  images by resizing them to a lower size and extract each image’s features by converting it to a column vector which will contain the RGB values stacked one after the other for a single example. We will then combine the vectors for each of the data instances and create a matrix as the input data to our models.Pre-processing of the data will be a challenge because we will have to figure an optimum value to resize the image.
@@ -52,5 +52,5 @@ Our models are applicable to the following applications and many more
 4.  Auto Insurance companies can use these models in re-writing auto policies.
 
 
-[`Source`]: http://cs229.stanford.edu/proj2019spr/report/24.pdf
+[`Image Source`]: http://cs229.stanford.edu/proj2019spr/report/24.pdf
 [`Dataset`]: https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
