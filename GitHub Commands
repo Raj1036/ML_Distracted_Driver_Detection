@@ -3,19 +3,24 @@
 ####################################################################################################################################
 <Go to your Local folder where you want to clone our ML Guthub repository>
 git clone https://github.com/Raj1036/ML_Distracted_Driver_Detection.git
+
+
+**********Always "git pull" the repository before uploading any folders/files to repository***************
+
+
 <Downloads ML_Distracted_Driver_Detection folder into your local desktop>
 
 ####################################################################################################################################
 <To upload local repository from your desktop to github>
 <Copy/move your desired folder into your local "ML_Distracted_Driver_Detection" folder>
 <run below commands each at a time>
-git config --global user.name "<Your github Username>"
+git config --global user.name "<Your github Username>" && git config --global user.email "YourEmailID"
 git init
 git add "<Name of your local folder/files to upload>"
 git commit -m "<Your upload Comments>"
-git remote add origin git@github.com:Raj1036/ML_Distracted_Driver_Detection.git
+git remote add origin https://github.com/Raj1036/ML_Distracted_Driver_Detection.git
 git remote -v
-git push origin master
+git push -u origin master
 <Give your Github username and password>
 
 ####################################################################################################################################
