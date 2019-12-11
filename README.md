@@ -71,6 +71,7 @@ Our models are applicable to the following applications and many more
 4.  Auto Insurance companies can use these models in re-writing auto policies.
 
 [`Image Source`]
+
 [`Image Source`]: http://cs229.stanford.edu/proj2019spr/report/24.pdf
 [`Dataset`]: https://www.kaggle.com/c/state-farm-distracted-driver-detection/data
 
