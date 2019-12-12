@@ -40,15 +40,17 @@ Our [`Dataset`] is from a 2016 Kaggle competition with a huge collection of 22,5
 We pre-processed these  images by resizing them to 64X64 RGB and extract each image’s pixels into a column vector of size 64X64X3. We then combined the vectors for each of the data instances and created a matrix as the input data to our models.
 
 #### HOG Feature Descriptor
-    - Count occurrences of gradient orientation in localized portions
-    
-    - Stacked HOG gradient features to generate a feature matrix
+1.  Count occurrences of gradient orientation in localized portions
+
+2.  Stacked HOG gradient features to generate a feature matrix
+
 # ![Classes](HOG.png)
 
 #### Sobel Edge Descriptor
-    - Obtained edges using Sobel gradient in X and Y direction
-    
-    - Stacked object edges as feature vector
+1.  Obtained edges using Sobel gradient in X and Y direction
+
+2.  Stacked object edges as feature vector
+
 # ![Image](Sobel.png)
 
 ### ML Algorithms
