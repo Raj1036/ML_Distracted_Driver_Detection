@@ -37,7 +37,19 @@ Our [`Dataset`] is from a 2016 Kaggle competition with a huge collection of 22,5
 ## Implementation
 
 ### Pre-processing
-We pre-processed these  images by resizing them to a lower size and extract each image’s features by converting it to a column vector which will contain the RGB values stacked one after the other for a single example. We will then combine the vectors for each of the data instances and create a matrix as the input data to our models.Pre-processing of the data will be a challenge because we will have to figure an optimum value to resize the image.
+We pre-processed these  images by resizing them to 64X64 RGB and extract each image’s pixels into a column vector of size 64X64X3. We then combined the vectors for each of the data instances and created a matrix as the input data to our models.
+
+#### HOG Feature Descriptor
+    - Count occurrences of gradient orientation in localized portions
+    
+    - Stacked HOG gradient features to generate a feature matrix
+# ![HOG Feature Descriptor](HOG Feature Descriptor.png)
+
+#### Sobel Edge Descriptor
+    - Obtained edges using Sobel gradient in X and Y direction
+    
+    - Stacked object edges as feature vector
+# ![Sobel Edge Descriptor](Sobel Edge Descriptor.png)
 
 ### ML Algorithms
 
