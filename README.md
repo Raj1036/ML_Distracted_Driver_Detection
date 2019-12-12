@@ -49,7 +49,8 @@ We pre-processed these  images by resizing them to 64X64 RGB and extract each im
     - Obtained edges using Sobel gradient in X and Y direction
     
     - Stacked object edges as feature vector
-# ![Classes](Sobel.png)
+    
+# ![Image](Sobel.png)
 
 ### ML Algorithms
 
