@@ -43,13 +43,13 @@ We pre-processed these  images by resizing them to 64X64 RGB and extract each im
     - Count occurrences of gradient orientation in localized portions
     
     - Stacked HOG gradient features to generate a feature matrix
-# ![Classes](HOG_Feature_Descriptor.png)
+# ![Classes](HOG.png)
 
 #### Sobel Edge Descriptor
     - Obtained edges using Sobel gradient in X and Y direction
     
     - Stacked object edges as feature vector
-# ![Classes](Sobel_Edge_Descriptor.png)
+# ![Classes](Sobel.png)
 
 ### ML Algorithms
 
