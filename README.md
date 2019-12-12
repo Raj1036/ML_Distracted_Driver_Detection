@@ -49,7 +49,6 @@ We pre-processed these  images by resizing them to 64X64 RGB and extract each im
     - Obtained edges using Sobel gradient in X and Y direction
     
     - Stacked object edges as feature vector
-    
 # ![Image](Sobel.png)
 
 ### ML Algorithms
@@ -74,7 +73,7 @@ Below listed are the Machine Learning algorithms we experimented to predict the 
     - MatplotLib
     - Glob
  3. Jupyter notebook to execute .ipynb files
- 
+
 ## Applications
 
 Our models are applicable to the following applications and many more
